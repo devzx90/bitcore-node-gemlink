@@ -1,13 +1,13 @@
 {
-  "name": "bitcore-node-tent",
+  "name": "bitcore-node-gemlink",
   "description": "Full node with extended capabilities using Bitcore and Zcash",
   "author": "BitPay <dev@bitpay.com>",
   "version": "3.1.2",
   "main": "./index.js",
-  "repository": "git://github.com/TENTOfficial/bitcore-node-tent.git",
-  "homepage": "https://github.com/TENTOfficial/bitcore-node-tent",
+  "repository": "git://github.com/gemlink/bitcore-node-gemlink.git",
+  "homepage": "https://github.com/gemlink/bitcore-node-gemlink",
   "bugs": {
-    "url": "https://github.com/TENTOfficial/bitcore-node-tent/issues"
+    "url": "https://github.com/gemlink/bitcore-node-gemlink/issues"
   },
   "contributors": [
     {
@@ -47,7 +47,7 @@
   "dependencies": {
     "async": "^1.3.0",
     "bitcoind-rpc": "^0.6.0",
-    "bitcore-lib-tent": "TENTOfficial/bitcore-lib-tent",
+    "bitcore-lib-gemlink": "gemlink/bitcore-lib-gemlink",
     "body-parser": "^1.13.3",
     "colors": "^1.1.2",
     "commander": "^2.8.1",
