@@ -46,7 +46,7 @@ describe('Zcashd Functionality', function() {
       bitcoind = require('../').services.Bitcoin({
         spawn: {
           datadir: datadir,
-          exec: path.resolve(__dirname, '../bin/snowgemd')
+          exec: path.resolve(__dirname, '../bin/gemlinkd')
         },
         node: {
           network: regtestNetwork,
